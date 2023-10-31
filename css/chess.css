@@ -1,0 +1,46 @@
+.cell-1 {
+    width: 52px; /* Adjust the size of the cells as needed */
+    height: 52px;
+    border: 1px solid #000; /* Add borders to the cells */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: background-color 0.5s;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin-top: -1px;
+    margin-left: -1px;
+
+}
+
+.cell-1:hover {
+    background-color: lightgray;
+}
+
+.white {
+    background-color: black; /* Set the background color for white cells */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[class ^= "block-"] {
+    display: flex;
+    flex-direction: row;
+}
+
+.figure {
+    max-width: 100%;
+    max-height: 100%;
+}
